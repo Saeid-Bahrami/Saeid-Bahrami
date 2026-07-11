@@ -30,11 +30,15 @@ Driven by a passion for reproducible science, I regularly develop Python/NumPy s
 All repositories within this profile are engineered with strict adherence to **DRY (Don't Repeat Yourself)** principles, bridging the gap between advanced fluid dynamics and production-grade research software:
 
 ```text
-saeidbahrami/ (Workspace Archetype)
-├── cfd-core-library/       # Centralized, high-performance vectorized routines
-└── modular-archetypes/     # Physics-specific deployment extensions
-    ├── multiphase-solver/  # Interface tracking & multi-component flows
-    └── turbulence-models/  # Advanced LES / RANS implementations
+Saeid-Bahrami/ (Research Software Engineering & Differentiable Fluids Workspace)
+│
+├── ⚙️ SciML-Differentiable-Physics-Engine/   # THE ENGINE: End-to-End differentiable physics & HPC framework for PDEs
+│
+├── 📂 surrogate-model-frameworks/            # THE DELIVERABLES: Scalable AI surrogates & Digital Twins (Horizon Europe aligned)
+│   ├── HydroTwin-Multiphase-SciML/           # -> AI-driven interface tracking & bubble dynamics for fluid systems
+│   └── Electrolyzer-Phase-Dynamics-Surrogate/# -> Real-time multiphase modeling for Hydrogen/Green Energy tech
+│
+└── 🚀 ?/      # THE EVIDENCE: Live Pyodide deployment of ? concepts
 ```
 * **High Performance:** Heavy mathematical computations are fully vectorized using dense `NumPy` structures to minimize execution overhead.
 * **Modular Deployment:** Physics modules (Multiphase, Turbulence, etc.) act as independent archetypes extending the core library, ensuring scalable and maintainable open-source scientific software.

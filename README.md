@@ -43,8 +43,8 @@ saeidbahrami/ (Workspace Archetype)
 
 <div align="center">
   <h3>📬 Academic Collaborations & Full-Time Research Roles</h3>
-  <p>My objective is to bridge advanced Computational Fluid Dynamics with strong engineering intuition, delivering creative and reproducible solutions for complex physical challenges.
-  I am actively open to full-time academic research positions and collaborative roles within high-impact grant projects.</p>
+  <p>My objective is to bridge advanced Computational Fluid Dynamics with strong engineering intuition, delivering creative and reproducible solutions for complex physical challenges.</p>
+ <p> I am actively open to full-time academic research positions and collaborative roles within high-impact grant projects.</p>
   <p>
     <a href="https://saeidbahrami.com"><b>[ Explore My CFD Portfolio & Lab ]</b></a> • 
     <a href="mailto:mail@saeidbahrami.com"><b>[ Email Me ]</b></a> • 

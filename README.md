@@ -30,13 +30,13 @@ Driven by a passion for reproducible science, I regularly develop Python/NumPy s
 All repositories within this profile are engineered with strict adherence to **DRY (Don't Repeat Yourself)** principles, bridging the gap between advanced fluid dynamics and production-grade research software:
 
 ```text
-Saeid-Bahrami/ (Research Software Engineering & Differentiable Fluids Workspace)
+Saeid-Bahrami/ (Smart Buildings & Differentiable Thermal Physics Workspace)
 │
-├── ⚙️ SciML-Differentiable-Physics-Engine/   # THE ENGINE: End-to-End differentiable physics & HPC framework for PDEs
+├── ⚙️ SciML-Thermal-Physics-Engine/          # THE ENGINE: Differentiable framework for heat transfer & fluid dynamics (PINNs)
 │
-├── 📂 surrogate-model-frameworks/            # THE DELIVERABLES: Scalable AI surrogates & Digital Twins (Horizon Europe aligned)
-│   ├── HydroTwin-Multiphase-SciML/           # -> AI-driven interface tracking & bubble dynamics for fluid systems
-│   └── Electrolyzer-Phase-Dynamics-Surrogate/# -> Real-time multiphase modeling for Hydrogen/Green Energy tech
+├── 📂 built-environment-surrogates/          # THE DELIVERABLES: Fast AI models for smart grids & EPBD compliance
+│   ├── IAQ-Neural-Solver/                    # -> Indoor Air Quality & ventilation flow prediction
+│   └── HVAC-Digital-Twin-Framework/          # -> Real-time thermal comfort & energy load surrogate models
 │
 └── 🚀 ?/      # THE EVIDENCE: Live Pyodide deployment of ? concepts
 ```

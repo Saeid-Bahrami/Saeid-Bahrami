@@ -42,12 +42,12 @@ Saeid-Bahrami/ (Profile Anchor & Reproducibility Hub)
 │
 ├── 📂 Archetypes/       # THE DELIVERABLES: Micro-Projects & Live Deployments
 │   │
-│   ├── 🎯 Project 1_HVAC_Surrogate/    # Archetype: Neural surrogate for building energy MPC
+│   ├──  Project_1_HVAC_Surrogate/    # Archetype: Neural surrogate for building energy MPC
 │   │   ├── weights/                  # Pre-trained lightweight checkpoints (.npy / .pt)
 │   │   ├── main_inference.py         # Lightweight script calling SciML-Thermal-Core
 │   │   └── index.html                # <py-script> integration for LIVE browser execution
 │   │
-│   └── 🎯 project 2_Digital_Twin/      # Archetype: Sensor fusion & data assimilation framework
+│   └──  Project_2_Digital_Twin/      # Archetype: Sensor fusion & data assimilation framework
 │       └── ...
 │
 └── ...

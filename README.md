@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://saeidbahrami.com">
-    <img src="banner.jpg" alt="Saeid Bahrami - Interactive CFD Dashboard Banner" width="100%" style="border-radius: 8px;" />
+    <img src="banner.jpg" alt="Saeid Bahrami - Interactive SciML & CFD Dashboard Banner" width="100%" style="border-radius: 8px;" />
   </a>
 
   <br />
@@ -13,35 +13,48 @@
 
 </div>
 
-### Rapid Prototyping & Reproducible Science
-Driven by a passion for reproducible science, I regularly develop Python/NumPy solvers to validate and interactively reproduce concepts from compelling state-of-the-art fluid dynamics literature. These pure-Python solvers are designed for high-performance vectorized operations and can be executed live directly in the browser on my interactive portfolio.
+### Scientific Machine Learning (SciML) & Deployable Physics
+I bridge the gap between advanced Computational Fluid Dynamics (CFD) and Scientific Machine Learning. My primary focus is developing **hardware-agnostic surrogate models** (Neural Operators, PINNs) optimized for **Model Predictive Control (MPC)** and energy transition applications. 
+
+Driven by reproducible science, I engineer pure-Python inference pipelines that transform state-of-the-art literature into lightweight, vectorized solvers capable of executing *live* directly in the browser via Pyodide.
 
 ---
 
 ### Core Credentials
 * **CFD Researcher** @ BSC (Barcelona Supercomputing Center)
 * **M.Sc. Fluid Mechanics** (Grenoble INP)
-* **Inventor** (US Patent 11,124,953)
+* **Inventor** (US Patent 11,124,953: Thermal/Fluid Systems)
 
 ---
 
-### Architecture Principles
+### Software Architecture & DRY Principles
 
-All repositories within this profile are engineered with strict adherence to **DRY (Don't Repeat Yourself)** principles, bridging the gap between advanced fluid dynamics and production-grade research software:
+To overcome the "technical debt" often found in academic codebases, my repositories strictly adhere to a decoupled architecture. I separate the core mathematical engines from project-specific deliverables, ensuring scalable, production-grade research software:
 
 ```text
-Saeid-Bahrami/ (Smart Buildings & Differentiable Thermal Physics Workspace)
+Saeid-Bahrami/ (Profile Anchor & Reproducibility Hub)
 │
-├── ⚙️ SciML-Thermal-Physics-Engine/          # THE ENGINE: Differentiable framework for heat transfer & fluid dynamics (PINNs)
+├── ⚙️ SciML-Thermal-Core/            # THE ENGINE: Single Source of Truth
+│   ├── sciml_core.solvers/           # Vectorized NumPy baseline physics solvers
+│   ├── sciml_core.neural_ops/        # Barebone architectures (FNO, DeepONet)
+│   ├── sciml_core.mpc_controller/    # Model Predictive Control (MPC) optimization loop
+│   └── sciml_core.pyodide_bridge/    # WASM serialization for Web UI rendering
 │
-├── 📂 built-environment-surrogates/          # THE DELIVERABLES: Fast AI models for smart grids & EPBD compliance
-│   ├── IAQ-Neural-Solver/                    # -> Indoor Air Quality & ventilation flow prediction
-│   └── HVAC-Digital-Twin-Framework/          # -> Real-time thermal comfort & energy load surrogate models
+├── 📂 Archetypes/       # THE DELIVERABLES: Micro-Projects & Live Deployments
+│   │
+│   ├── 🎯 Project 1_HVAC_Surrogate/    # Archetype: Neural surrogate for building energy MPC
+│   │   ├── weights/                  # Pre-trained lightweight checkpoints (.npy / .pt)
+│   │   ├── main_inference.py         # Lightweight script calling SciML-Thermal-Core
+│   │   └── index.html                # <py-script> integration for LIVE browser execution
+│   │
+│   └── 🎯 project 2_Digital_Twin/      # Archetype: Sensor fusion & data assimilation framework
+│       └── ...
 │
-└── 🚀 ?/      # THE EVIDENCE: Live Pyodide deployment of ? concepts
+└── ...
 ```
-* **High Performance:** Heavy mathematical computations are fully vectorized using dense `NumPy` structures to minimize execution overhead.
-* **Modular Deployment:** Physics modules (Multiphase, Turbulence, etc.) act as independent archetypes extending the core library, ensuring scalable and maintainable open-source scientific software.
+Hardware-Agnostic Inference: Heavy training is decoupled. The archetype repositories rely on pre-trained weights and dense NumPy vectorization to perform lightning-fast inference, proving architectural viability without requiring HPC access.
+
+Zero-Install Reproducibility: By bridging Python algorithms with WebAssembly (Pyodide), physical simulations and neural network inferences can be evaluated instantly by researchers and reviewers globally, directly in their browsers.
 
 ---
 
@@ -50,7 +63,7 @@ Saeid-Bahrami/ (Smart Buildings & Differentiable Thermal Physics Workspace)
   <p>My objective is to bridge advanced Computational Fluid Dynamics with strong engineering intuition, delivering creative and reproducible solutions for complex physical challenges.</p>
  <p> I am actively open to full-time academic research positions and collaborative roles within high-impact grant projects.</p>
   <p>
-    <a href="https://saeidbahrami.com"><b>[ Explore My CFD Portfolio & Lab ]</b></a> • 
-    <a href="mailto:mail@saeidbahrami.com"><b>[ Email Me ]</b></a> • 
+    <a href="https://saeidbahrami.com"><b> Explore My CFD Portfolio & Lab </b></a> • 
+    <a href="mailto:mail@saeidbahrami.com"><b> Email Me </b></a> • 
   </p>
 </div>
